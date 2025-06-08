@@ -104,7 +104,7 @@ def create_query(user_prompt):
         messages=[
             {"role": "user", "content": prompt}
         ],
-        max_tokens=512
+        max_tokens=500
     )
 
     answer = response.choices[0].message.content
@@ -135,7 +135,7 @@ def answer_question(user_question, index, query):
             {"role": "system", "content": "You need to provide short answers to the users questions related to kaggle. If the user question is not related to kaggle, say 'I don't have the answer.'"},
             {"role": "user", "content": prompt}
         ],
-        max_tokens=512
+        max_tokens=500
     )
 
     answer = response.choices[0].message.content
