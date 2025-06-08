@@ -1,0 +1,21 @@
+Kaggle Learn FAQ
+Q: My exercise progress is not at 100% (I don't have a green check), but I think I have completed the exercise. What should I do?
+In most cases, this can be fixed by running every line of code in the notebook by selecting the "Run All" option towards the header. If this doesn't work, double-check that you have gotten a correct result for every question in the notebook. If this doesn't work, reset the exercise (see next question).
+
+Q: How can I reset an exercise?
+To restart an exercise, go to kaggle.com/me/code, and then find the name of the exercise notebook you'd like to restart. To the right, you'll see a menu marked by [...]. Click on that menu, and select "Delete". This will erase all of your work. Then, to restart the exercise, go back to the course page, and click on the exercise.
+
+Q: I'm getting an error in my exercise like "q_1 not defined" or "step_2 not defined".
+Whenever you take a break from the notebook, please make sure that you run all of the notebook code from top to bottom before resuming your work. It's especially important to run the code that sets up the checking code, which usually looks something like this:
+
+    
+# Set up code checking
+from learntools.core import binder
+binder.bind(globals())
+from learntools.machine_learning.ex2 import *
+print("Setup Complete")
+    
+After doing this, if the notebook doesn't work, you can always reset it by following the instructions in the question above.
+
+Q: Do I have to submit the exercises for my lessons to be marked complete? How can I check that I have completed the lesson?
+You don't have to submit anything to complete the lessons, and you don't have to "Save Version". You only have to view (and read) the tutorial, and then successfully answer all of the questions in the exercise (you'll know you're successful, when you run the "check" code and get a "Correct" result). You can double-check you have completed everything by visiting the course homepage, which shows your completion percentage for each tutorial and exercise. If you see a green check mark, it means you have completed that part of the course.

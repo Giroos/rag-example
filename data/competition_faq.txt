@@ -1,0 +1,16 @@
+Competition FAQs
+
+See all
+Who’s eligible to launch a community competition?
+Everyone! Previously, this platform could only be used in university courses, but now anyone can organize a competition, including research organizations, companies, and regional meetup groups.
+
+How do grants for Research Competitions work?
+Kaggle is offering quarterly grants to hosts at academic/sesearch institutions and non-profit organizations who want to run competitions to further their machine learning research efforts. Learn more about the application criteria.
+
+What do I need to get started to create a competition?
+You’ll need a) a clearly defined problem that competitors need to solve using a machine learning model and b) a dataset that’s used both for training and evaluating the effectiveness of these models. For example, in the Store Sales – Time Series Forecasting competition competitors must accurately predict how many of a grocery item will sell using a dataset of past product and sales information from Corporación Favorita, a large Ecuadorian-based grocery retailer.
+
+Check out our step by step guide on how to get started.
+
+How do I get support for my competition?
+Because Community Competitions are no cost and entirely self-service, we aren’t able to provide hands-on support for setting up or troubleshooting your competition. But, we encourage connecting with other Community Competition hosts in the Competition Hosting forum . If you’re experiencing an issue that you believe is affecting the entire platform, please contact us here.
