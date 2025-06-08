@@ -1,7 +1,7 @@
 # General
 
 - An example of RAG application.
-- Able to answer questions about the kaggle FAQ, original dataset: https://www.kaggle.com/datasets/ikjotsingh221/kagglefaq?select=kaggle_learn_faq.txt
+- Able to answer questions based on the kaggle FAQ, original dataset: https://www.kaggle.com/datasets/ikjotsingh221/kagglefaq?select=kaggle_learn_faq.txt
 
 # Requirements to execute the application:
 - Epam dial api key
